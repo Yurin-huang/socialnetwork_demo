@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Yulin"
+  },
+  "text": {
+    "more": "",
+    "intro": "此处展示内部沟通学习网络图。绿色线条为跨一级部门沟通，红色线条为一级部门内沟通。",
+    "title": "Communication Network"
+  },
+  "legend": {
+    "edgeLabel": "沟通类型",
+    "colorLabel": "一级部门",
+    "nodeLabel": "员工ID"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "first",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+     "maxEdgeSize": 7,
+      "minEdgeSize": 0.5,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
