@@ -275,10 +275,16 @@ function configSigmaElements(config) {
     }
     $GP.bg = $(sigInst._core.domElements.bg);
     $GP.bg2 = $(sigInst._core.domElements.bg2);
+   var mycars = new Array();
+    mycars[0] = "研发";
+    mycars[1] = "营销";
+    mycars[2] = "供应链";
+    mycars[3] = "职能";
     var a = [],
-        b,x=1;
-		for (b in sigInst.clusters) a.push('<div style="line-height:12px"><a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div> Group ' + (x++) + ' (' + sigInst.clusters[b].length + ' members)</a></div>');
-    //a.sort();
+        b=1;
+        x=0;
+		for (b in sigInst.clusters) a.push('<div style="line-height:12px"><a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div>'+' '+mycars[x++] +' (' + sigInst.clusters[b].length + ' members)</a></div>');
+	
     $GP.cluster.content(a.join(""));
     b = {
         minWidth: 400,
