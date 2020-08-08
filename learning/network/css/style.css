@@ -185,7 +185,38 @@ font-weight: bold;
 font-size:14px;
 
 }
+#gifcontainer {
+	margin-top: 50px;
+	margin-right: 25px;
+	position:fixed;
+	top:0;
+	right:0;
+	background:#fff;
+	background-color:rgba(255,255,255,0.8);
+	border:1px solid #ccc;
+}
+#gifnet {
+	width: 303px;
+	height: 425px;
 
+	background-image: url('../images/comnetwork.gif');
+	background-repeat: no-repeat;
+
+	}
+#gifnet span {
+		display:none;
+}
+#giftext {
+	width: 295px;
+	height: 20px;
+	text-align: center;
+	text-decoration-line: underline;
+	font-size: small;
+	font-weight: bold;
+	}
+#giftext span {
+		display:none;
+}
 #developercontainer {
 	margin-left:25px;
 	margin-bottom:25px;
