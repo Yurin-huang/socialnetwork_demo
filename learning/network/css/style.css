@@ -188,7 +188,7 @@ font-size:14px;
 #legendcontainer {
 	margin-top: 50px;
 	margin-left: 300px;
-	position: relative;
+	position: fixed;
 	top:0;
 	left:0;
 }
