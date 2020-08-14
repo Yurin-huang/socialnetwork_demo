@@ -187,14 +187,14 @@ font-size:14px;
 }
 #legendcontainer {
 	margin-top: 50px;
-	margin-left: 250px;
-	position:fixed;
+	margin-left: 300px;
+	position: relative;
 	top:0;
 	left:0;
 }
 #legendnet {
 	width: 170px;
-	height: 300px;
+	height: 250px;
 
 	background-image: url('../images/legend1.png');
 	background-repeat: no-repeat;
