@@ -276,10 +276,10 @@ function configSigmaElements(config) {
     $GP.bg = $(sigInst._core.domElements.bg);
     $GP.bg2 = $(sigInst._core.domElements.bg2);
     var mycars = new Array();
-    mycars[0] = "营销";
-    mycars[1] = "供应链";
-    mycars[2] = "研发";
-    mycars[3] = "职能";
+    mycars[0] = "供应链";
+    mycars[1] = "研发";
+    mycars[2] = "职能";
+    mycars[3] = "营销";
     var a = [],
         b=1;
         x=0;
