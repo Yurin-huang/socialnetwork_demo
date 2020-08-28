@@ -241,7 +241,17 @@ font-size:14px;
 	position:fixed;
 	bottom:0;
 }
+#tablenet {
+	width: 434px;
+	height: 97px;
 
+	background-image: url('../images/mytable.png');
+	background-repeat: no-repeat;
+
+	}
+	#tablenet span {
+		display:none;
+}
 #jisc {
 width: 140px;
 height: 70px;
@@ -252,16 +262,6 @@ display:inline-block;
 
 #jisc span {
 	display:none;
-}
-#leg {
-	width: 140px;
-	height: 70px;
-	background-image: url('../images/leg.png');
-	background-repeat: no-repeat;
-	display:inline-block;
-	}
-#leg span {
-		display:none;
 }	
 	
 #oii {
