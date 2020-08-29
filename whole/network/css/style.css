@@ -253,6 +253,7 @@ font-size:14px;
 	background-image: url('../images/leg.png');
 	background-repeat: no-repeat;
 	margin-bottom: 15px;
+	bottom: 10px;
 	}
 #leg span {
 		display:none;
