@@ -247,18 +247,16 @@ width: 140px;
 height: 70px;
 background-image: url('../images/jisc-logo-small.png');
 background-repeat: no-repeat;
-display:inline-block;
 }
 
 #jisc span {
 	display:none;
 }
 #leg {
-	width: 140px;
-	height: 70px;
+	width: 434px;
+	height: 97px;
 	background-image: url('../images/leg.png');
 	background-repeat: no-repeat;
-	display:inline-block;
 	}
 #leg span {
 		display:none;
@@ -268,7 +266,7 @@ width: 227px;
 height: 56px;
 background-image: url('../images/oii_text.png');
 background-repeat: no-repeat;
-display:inline-block;
+
 margin-right:10px;
 
 }

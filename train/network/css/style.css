@@ -144,7 +144,6 @@ font-weight:bold;
 }
 
 #attributepane .data {
-
 }
 
 #attributepane .data .plus {
@@ -265,8 +264,8 @@ display:inline-block;
 }	
 	
 #oii {
-width: 227px;
-height: 56px;
+width: 434px;
+height: 97px;
 background-image: url('../images/oii_text.png');
 background-repeat: no-repeat;
 display:inline-block;
