@@ -242,27 +242,26 @@ font-size:14px;
 	bottom:0;
 }
 
-#jisc {
-width: 140px;
-height: 70px;
-background-image: url('../images/jisc-logo-small.png');
-background-repeat: no-repeat;
-display:inline-block;
-}
 
-#jisc span {
-	display:none;
-}
-#leg {
+#jisc {
 	width: 140px;
 	height: 70px;
-	background-image: url('../images/leg.png');
+	background-image: url('../images/jisc-logo-small.png');
 	background-repeat: no-repeat;
-	display:inline-block;
 	}
-#leg span {
+	
+	#jisc span {
 		display:none;
-}	
+	}
+	#leg {
+		width: 434px;
+		height: 97px;
+		background-image: url('../images/leg.png');
+		background-repeat: no-repeat;
+		}
+	#leg span {
+			display:none;
+	}	
 #oii {
 width: 227px;
 height: 56px;

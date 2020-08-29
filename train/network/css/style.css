@@ -251,17 +251,26 @@ font-size:14px;
 	#tablenet span {
 		display:none;
 }
-#jisc {
-width: 140px;
-height: 70px;
-background-image: url('../images/jisc-logo-small.png');
-background-repeat: no-repeat;
-display:inline-block;
-}
 
-#jisc span {
-	display:none;
-}	
+#jisc {
+	width: 140px;
+	height: 70px;
+	background-image: url('../images/jisc-logo-small.png');
+	background-repeat: no-repeat;
+	}
+	
+	#jisc span {
+		display:none;
+	}
+	#leg {
+		width: 434px;
+		height: 97px;
+		background-image: url('../images/leg.png');
+		background-repeat: no-repeat;
+		}
+	#leg span {
+			display:none;
+	}	
 	
 #oii {
 width: 434px;
