@@ -241,7 +241,21 @@ font-size:14px;
 	position:fixed;
 	bottom:0;
 }
-
+#tablecontainer {
+	margin-left:25px;
+	margin-bottom:300px;
+	position:fixed;
+	bottom:0;
+}
+#leg {
+	width: 434px;
+	height: 325px;
+	background-image: url('../images/leg.png');
+	background-repeat: no-repeat;
+	}
+#leg span {
+		display:none;
+}
 #study {
 width: 140px;
 height: 70px;
